@@ -5,6 +5,12 @@
     --font: "Roboto", sans-serif;
 }
 
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+}
+
 .cabecalho{
     background-color: var(--bg-color);
     display: flex;
