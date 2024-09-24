@@ -4,3 +4,11 @@
     --secondary-color: #D0B8A8;
     --font: #C5705D;
 }
+
+.cabecalho{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
