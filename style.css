@@ -2,7 +2,7 @@
     --bg-color: #F8EDE3;
     --primary-color: #DFD3C3;
     --secondary-color: #D0B8A8;
-    --font: #C5705D;
+    --font: "Roboto", sans-serif;
 }
 
 .cabecalho{
@@ -11,4 +11,5 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    color: var(--primary-color);
 }
