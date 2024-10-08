@@ -8,6 +8,14 @@ const tipo_dados = dados[0]['variavel']
 console.log(tipo_dados)
 const regiao = dados[0]["resultados"]
 console.log(regiao)
+
+const paragrafo = document.createElement('p')
+paragrafo.classList.add('graficos--container__texto')
+paragrafo.innerHTML ="Aqui será colocado os dados"
+console.log(paragrafo)
+const container = document.getElementById('graficos')
+
+container.appendChild(paragrafo)
 }
 
 visualizarDados()
